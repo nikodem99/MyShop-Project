@@ -5,18 +5,24 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>MyShop</title>
+  <title>BestShop</title>
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:300,400,700,800&display=swap&subset=latin-ext" rel="stylesheet"/>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="scss/main.scss">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 
 <header class="header">
   <div class="header__container container">
-    <a href="#" class="logo">MyShop</a>
+    <a href="#" class="logo">BestShop</a>
     <nav>
+      <input type="checkbox" class="menu__btn" id="menu__btn">
+      <label for="menu__btn" class="menu__toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
       <ul class="header__nav">
         <li class="nav__element"><a href="#why-us" class="nav__link">Why us</a></li>
         <li class="nav__element"><a href="#benefits" class="nav__link">Benefits</a></li>
@@ -227,6 +233,7 @@
           </label>
         </div>
         <button type="submit" class="btn btn--primary">Send</button>
+        <textarea class="form__input" id="form__input" placeholder="Enter your personal data" rows="2"></textarea></textarea>
       </form>
     </div>
   </section>
@@ -247,3 +254,37 @@
 </footer>
 </body>
 </html>
+
+
+<!-- <section>
+  <footer class="footer">
+    <div class="footer__container container">
+      <div>
+      <p>Lorem, ipsum dolor.</p>
+      <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</span>
+      </div>
+      <div class="footer__container-next">
+        <h3 class="footer__h3">Lorem, ipsum dolor.</h3>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem ipsum dolor sit.</li>
+      </div>
+      
+      <div class="footer__icons">
+        <p class="footer__p">Lorem Ipsum dolor<p>
+        <div>
+          <input type="text" placeholder="""  class="footer__input">
+          <button class="footer__button" type="button">Lorem</button>
+        </div>
+        <section class="footer__media""></section>
+        <a href="#"><img src="/images/Facebook.svg" alt="facebook"/></a>
+        <a href="#"><img src="/images/Twitter.svg" alt="twitter"/></a>
+      </section>
+      </div>
+    </div>
+    <div class="footer__info">
+      <span class="footer__copy"><i class="footer_i">Copyright</i><a class="footer__logo">ZaplanujJedzonko.pl</a></span>
+    </div>
+  </footer>
+</section> -->
