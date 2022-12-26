@@ -1,4 +1,4 @@
-function Calculator(form, summary) {
+function Calculator(form,summary) {
     this.prices = {
         products: 0.5,
         orders: 0.25,
